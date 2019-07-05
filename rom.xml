@@ -5,6 +5,10 @@
           fetch=".."
           review="http://github.com/" />
 
+  <!-- <remote name="gitlab" -->
+          <!-- fetch=".." -->
+          <!-- review="git@gitlab.com" /> -->
+
   <!-- default: revision: branch name, remote: remote name, sync-j: sync thread number -->
   <default revision="master"
            remote="github"
