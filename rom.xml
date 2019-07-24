@@ -2,8 +2,8 @@
 <manifest>
   <!-- remote: name: reomte name, fetch: remote url (you can configure multi-remote, you can select remote name with project.remote) -->
   <remote name="github"
-          fetch=".."
-          review="http://github.com/" />
+          fetch="ssh://git@github.com"
+          review="git@github.com/" />
 
   <!-- <remote name="gitlab" -->
           <!-- fetch=".." -->
