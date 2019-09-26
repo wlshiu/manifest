@@ -13,7 +13,7 @@ repo manifest.xml
 + try to communicate gitlab server
 
     ```
-    $ ssh -T git@gitlabserver.vangotech.com
+    $ ssh -T git@gitlabserver.com
     ...
     Welcome to GitLab
     ```
@@ -29,7 +29,7 @@ repo manifest.xml
 + download source code
 
     ```
-    $ repo init -u git@gitlabserver.vangotech.com:SW/manifests.git -b master -m phoenix.xml
+    $ repo init -u git@gitlabserver.com:xxx/manifests.git -b master -m default.xml
     $ repo sync
     $ repo start local/test --all
     ```
